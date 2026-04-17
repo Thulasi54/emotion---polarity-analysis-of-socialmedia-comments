@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Emotion & Polarity Analysis System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🧠 Emotion & Polarity Analysis System</h1>
+
+<div class="card">
+
+    <input id="text" placeholder="Enter your thoughts...">
+
+    <p>OR</p>
+
+    <select id="emotion">
+        <option value="">Select Emotion</option>
+        <option value="joy">😊 Joy</option>
+        <option value="anger">😡 Anger</option>
+        <option value="sadness">😢 Sadness</option>
+        <option value="fear">😨 Fear</option>
+        <option value="gratitude">🙏 Gratitude</option>
+        <option value="surprise">😲 Surprise</option>
+    </select>
+
+    <button onclick="analyze()">Analyze</button>
+
+    <div id="result"></div>
+    <div id="gameSection"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
